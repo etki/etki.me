@@ -1,7 +1,8 @@
 <template>
+    <v-container flat mt-5>
     <v-card>
         <v-card-text>
-            <v-container pa-3>
+            <v-container pa-3 my-4>
                 <v-layout justify-center align-center column>
                     <v-flex mb-5>
                         <h1 class="primary--text">Hey, I'm Etki!</h1>
@@ -26,4 +27,5 @@
             </v-container>
         </v-card-text>
     </v-card>
+    </v-container>
 </template>

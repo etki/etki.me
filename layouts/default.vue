@@ -34,7 +34,7 @@
             </v-layout>
         </v-toolbar>
         <v-container class="width-limiter" fill-height>
-            <v-container fluid pa-0>
+            <v-container fluid pa-0 mt-0>
                 <!--suppress CheckEmptyScriptTag -->
                 <nuxt />
             </v-container>
