@@ -12,7 +12,7 @@
                         </nuxt-link>
                     </v-toolbar-title>
                     <v-spacer></v-spacer>
-                    <v-toolbar-items class="hidden-sm-and-down">
+                    <v-toolbar-items class="hidden-xs-only">
                         <nuxt-link to="/about">
                             <v-btn flat color="primary">
                                 About
@@ -99,6 +99,12 @@ body, .application
 
 h1, h2, h3, h4, h5, h6
     font-weight: normal
+
+@media (max-width: 600px)
+    h1
+        font-size: 160%
+    h3
+        font-size: 130%
 </style>
 
 <script lang="ts">
