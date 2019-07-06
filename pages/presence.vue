@@ -36,8 +36,8 @@
 
         <h3 class="primary--text pt-4 pb-2">Telegram</h3>
         <p>
-            My username is <a href="https://t.me/etkee" target="_blank">etkee</a> (they don't allow usernames less than five characters :( ),
-            and I participate in some russian thematic chats:
+            My username is <a href="https://t.me/etkee" target="_blank">etkee</a> (they don't allow usernames less than
+            five characters &#128530;), and I participate in some russian thematic chats:
         </p>
 
         <ul>
