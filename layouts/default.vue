@@ -77,17 +77,20 @@ body, .application
         text-decoration: none
     .logo
         button
-            padding-top: 6px
-            padding-bottom: 6px
+            padding-top: 7px
+            padding-bottom: 5px
             height: inherit
             font-size: 36px
             text-transform: none
+            margin: 0
     button
         font-size: 18px
         padding-top: 20px
         padding-bottom: 20px
         margin-top: 0
         margin-bottom: 0
+    .width-limiter
+        max-width: 912px
 
 .width-limiter
     max-width: 960px

@@ -1,5 +1,5 @@
 <template>
-    <v-container flat class="index-container">
+    <v-container flat class="index-container" pa-0>
         <v-card>
             <v-card-text>
                 <div class="index-container">
