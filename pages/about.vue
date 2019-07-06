@@ -18,9 +18,10 @@
                 java folks). Sometimes I do weird and completely different stuff in other languages and environments, so
                 I've worked with Ruby (Chef, some self-created gems), JS/TS, Vue (which I used to enrich 3-d panos
                 played by <a href="https://www.marzipano.net/">Marzipano</a>) / Vuex / Nuxt, a tiny bit of React, a
-                little bit of Python, a lot of god-forsaken PHP (and even FXAA in it, I'm not kidding), I can read
-                simplest assembly listings and know what's false sharing and cache coherence, had some Scala but didn't
-                like it, same with Spark, and a lot more, but this list has already turned damn boring.
+                little bit of Python, a lot of god-forsaken PHP (and even FXAA in it,
+                <a href="https://github.com/ama-team/php-projection-framework/blob/master/src/Conversion/Processor/FXAAProcessor.php#L101" target="_blank">I'm not kidding</a>),
+                I can read simplest assembly listings and know what's false sharing and cache coherence, had some Scala
+                but didn't like it, same with Spark, and a lot more, but this list has already turned damn boring.
             </p>
 
             <p class="mb-0">That's it :P</p>
