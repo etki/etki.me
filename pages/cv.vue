@@ -1,21 +1,7 @@
 <template>
   <v-container flat>
     <v-card class="pa-8">
-      <Heading>Etki</Heading>
-      <div class="subheader">
-        <div>
-          Software developer, performance otaku. Java, C# and half a dozen other languages.
-        </div>
-        <div>
-          Russia, Saint-Petersburg. Planning to move to Netherlands, Maastricht in August 2021.
-        </div>
-        <div>
-          Tel.: <a href="tel:+79219766733">+79219766733</a>.
-        </div>
-        <div>
-          Email: <a href="mailto:etki@ayte.team">etki@ayte.team</a>.
-        </div>
-      </div>
+      <Header :telephones="['+7 (921) 976-67-33']" :emails="['etki@ayte.team']"/>
 
       <v-divider class="mt-5 primary--text"/>
 
@@ -243,6 +229,8 @@
           <Heading :size="2">Programming languages</Heading>
           <ul>
             <li>Java</li>
+            <li>Scala</li>
+            <li>Groovy (a bit)</li>
             <li>C#</li>
             <li>C</li>
             <li>JavaScript / TypeScript</li>
@@ -417,11 +405,15 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
 import Heading from '~/components/element/Heading.vue';
-export default {
-  components: {Heading},
-  data: () => ({tab: null})
-};
+import Header from '~/components/cv/Header.vue';
+import {Component} from 'vue-property-decorator';
+
+@Component({components:{Header, Heading}})
+export default class CvPage extends Vue {
+  public tab: string = null;
+}
 </script>
 
 <style lang="sass">
