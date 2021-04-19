@@ -1,6 +1,6 @@
 <template>
     <v-card-title>
-        <v-btn to="/" flat icon color="primary" class="ml-0" v-if="!disableBackButton">
+        <v-btn to="/" text icon color="primary" class="ml-0" v-if="!disableBackButton">
             <v-icon>arrow_back</v-icon>
         </v-btn>
         <h1 class="primary--text"><slot></slot></h1>

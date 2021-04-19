@@ -6,7 +6,7 @@
                     <v-layout row>
                     <v-toolbar-title>
                         <nuxt-link to="/" class="logo">
-                            <v-btn flat color="primary">
+                            <v-btn text color="primary">
                                 Etki!
                             </v-btn>
                         </nuxt-link>
@@ -14,17 +14,17 @@
                     <v-spacer></v-spacer>
                     <v-toolbar-items class="hidden-xs-only">
                         <nuxt-link to="/about">
-                            <v-btn flat color="primary">
+                            <v-btn text color="primary">
                                 About
                             </v-btn>
                         </nuxt-link>
                         <nuxt-link to="/presence">
-                            <v-btn flat color="primary">
+                            <v-btn text color="primary">
                                 Presence
                             </v-btn>
                         </nuxt-link>
                         <nuxt-link to="/contacts">
-                            <v-btn flat color="primary">
+                            <v-btn text color="primary">
                                 Contacts
                             </v-btn>
                         </nuxt-link>
@@ -64,7 +64,7 @@ html
     box-sizing: border-box
     overflow: auto
 
-body, .application
+body, .v-application
     font-family: 'Varela Round', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
     overflow: auto
     font-size: 18px
